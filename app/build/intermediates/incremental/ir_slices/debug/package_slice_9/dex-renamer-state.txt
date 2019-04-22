@@ -1,0 +1,4 @@
+#Mon Apr 22 15:42:17 EDT 2019
+base.0=C\:\\Users\\Roly\\AndroidStudioProjects\\tropicollage\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\9
+path.0=classes.dex
+renamed.0=classes.dex
