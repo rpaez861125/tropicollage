@@ -1,3 +1,33 @@
 <resources>
     <string name="app_name">Tropicollage</string>
+    <string name="str_reservar">Reservar</string>
+    <string name="str_datos_personales">Datos Personales</string>
+    <string name="str_telefono">Teléfono</string>
+    <string name="str_country">País</string>
+    <string name="str_casa">Casa</string>
+    <string name="str_transport">Transporte</string>
+    <string name="str_full_name">Nombre y Apellidos</string>
+
+                    <!--SMS -->
+    <string name="str_sms_permision_error">No tiene permiso para enviar SMS</string>
+    <string name="str_sms_confirm">Mensaje enviado correctamente!</string>
+    <string name="str_sms_error_send">Mensaje no enviado, verifique permisos o datos!</string>
+
+                    <!--    Botones    -->
+    <string name="str_btn_Next">Siguiente</string>
+    <string name="str_btn_Reservar">Reservar</string>
+
+
+                    <!--Arrays-->
+    <string-array name="array_hause">
+        <item>$60 - Casa 1</item>
+        <item>$45 - Casa 2</item>
+        <item>$50 - Casa 3</item>
+    </string-array>
+
+    <string-array name="array_car">
+        <item>$50 - Carro 1</item>
+        <item>$20 - Carro 2</item>
+        <item>$30 - Carro 3</item>
+    </string-array>
 </resources>

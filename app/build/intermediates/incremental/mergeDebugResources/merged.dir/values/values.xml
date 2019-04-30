@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="array_car">
+        <item>$50 - Carro 1</item>
+        <item>$20 - Carro 2</item>
+        <item>$30 - Carro 3</item>
+    </string-array>
+    <string-array name="array_hause">
+        <item>$60 - Casa 1</item>
+        <item>$45 - Casa 2</item>
+        <item>$50 - Casa 3</item>
+    </string-array>
     <attr format="boolean" name="barrierAllowsGoneWidgets"/>
     <attr format="enum" name="barrierDirection">
         <enum name="left" value="0"/>
@@ -383,12 +393,24 @@
     <string name="app_name">Tropicollage</string>
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="str_btn_Next">Siguiente</string>
+    <string name="str_btn_Reservar">Reservar</string>
+    <string name="str_casa">Casa</string>
+    <string name="str_country">País</string>
+    <string name="str_datos_personales">Datos Personales</string>
+    <string name="str_full_name">Nombre y Apellidos</string>
+    <string name="str_reservar">Reservar</string>
+    <string name="str_sms_confirm">Mensaje enviado correctamente!</string>
+    <string name="str_sms_error_send">Mensaje no enviado, verifique permisos o datos!</string>
+    <string name="str_sms_permision_error">No tiene permiso para enviar SMS</string>
+    <string name="str_telefono">Teléfono</string>
+    <string name="str_transport">Transporte</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
     <style name="Animation.AppCompat.DropDownUp" parent="Base.Animation.AppCompat.DropDownUp"/>
     <style name="Animation.AppCompat.Tooltip" parent="Base.Animation.AppCompat.Tooltip"/>
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
@@ -1451,6 +1473,26 @@
         <item name="android:background">?attr/controlBackground</item>
         <item name="android:minWidth">56dp</item>
         <item name="android:scaleType">center</item>
+    </style>
+    <style name="LButtonHighlight" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="colorControlHighlight">@color/colorPrimary</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+    <style name="LTextLabel">
+        <item name="android:textColor">@color/primary_text</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+    </style>
+    <style name="LTextRootPanelReserva">
+        
+        
+        <item name="android:textColor">@color/primary_text</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:typeface">normal</item>
     </style>
     <style name="Platform.AppCompat" parent="android:Theme.Holo">
         <item name="android:windowNoTitle">true</item>
