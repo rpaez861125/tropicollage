@@ -1,4 +1,4 @@
-#Tue Apr 30 14:12:22 EDT 2019
-base.0=E\:\\Instructores\\Leandro\\Mio\\Android\\Projects\\Tropicollage\\tropicollage\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\3
+#Tue Apr 30 16:06:54 EDT 2019
+base.0=C\:\\Users\\Roly\\AndroidStudioProjects\\tropicollage\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\3
 path.0=classes.dex
 renamed.0=classes.dex

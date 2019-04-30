@@ -100,7 +100,7 @@ public class ReservarActivity extends AppCompatActivity implements View.OnClickL
                     SmsManager sms = SmsManager.getDefault();
 
                     //Insertar los datos para enviar el SMS  roly-5358342026    lenadro Father-58829903   cliente - 58040385
-                    sms.sendTextMessage("1234567",null,"SMS Generado App-TropicalCollage =>> "+sms_text,null,null);
+                    sms.sendTextMessage("58040385",null,"SMS Generado App-TropicalCollage =>> "+sms_text,null,null);
 
                     // confirmacion de envio de SMS
                     int contrar = sms_text.length() + 37;

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Instructores\\Leandro\\Mio\\Android\\Projects\\Tropicollage\\tropicollage\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sq\\values-sq.xml",
+            "outputFile": "C:\\Users\\Roly\\AndroidStudioProjects\\tropicollage\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sq\\values-sq.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0-rc02.aar\\7318130e3a394cb8759ec7b15ec18a7e\\res\\values-sq\\values-sq.xml",
+                    "source": "C:\\Users\\Roly\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0-rc02.aar\\6de6d87343648f1fd6e3b4387e6b9bb1\\res\\values-sq\\values-sq.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0-rc02.aar\\18ae54f95d249815eed9700b7a9bfd10\\res\\values-sq\\values-sq.xml",
+                    "source": "C:\\Users\\Roly\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0-rc02.aar\\8539d1ad43e6c62d2036f7317d041629\\res\\values-sq\\values-sq.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
